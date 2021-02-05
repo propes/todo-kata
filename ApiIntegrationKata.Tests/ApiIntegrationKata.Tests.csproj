@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>ApiIntegrationKata.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="fluentassertions" Version="5.10.3" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="5.0.2" />
+      <PackageReference Include="microsoft.net.test.sdk" Version="16.8.3" />
+      <PackageReference Include="xunit" Version="2.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ApiIntegrationKata\ApiIntegrationKata.csproj" />
+    </ItemGroup>
+
+</Project>
