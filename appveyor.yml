@@ -6,6 +6,9 @@ build:
   publish_aspnet_core: true
   verbosity: minimal
 
+artifacts:
+  - path: test.zip
+
 deploy:
   provider: WebDeploy
   server:
@@ -14,3 +17,4 @@ deploy:
   password:
   ntlm: false
   remove_files: false
+  artifact: test.zip
