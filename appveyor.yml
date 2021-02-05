@@ -5,3 +5,12 @@ configuration: Release
 build:
   verbosity: minimal
 
+deploy:
+  provider: WebDeploy
+  server:
+  website:
+  username:
+  password:
+  ntlm: true|false
+  remove_files: true|false
+  artifact:
