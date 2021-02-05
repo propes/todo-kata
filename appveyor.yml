@@ -7,7 +7,7 @@ build:
   verbosity: minimal
 
 artifacts:
-  - path: bin\$(configuration)\*.dll
+  - path: /home/appveyor/projects/todo-kata/ApiIntegrationKata/bin/Release/net5.0\*
     type: WebDeployPackage
 
 deploy:
