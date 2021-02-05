@@ -1,9 +1,7 @@
-﻿image: Visual Studio 2019
+﻿image: ubuntu
 
 configuration: Release
 
 build:
   verbosity: detailed
 
-before_build:
-  - nuget restore
