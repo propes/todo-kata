@@ -11,6 +11,5 @@ deploy:
   website:
   username:
   password:
-  ntlm: true|false
-  remove_files: true|false
-  artifact:
+  ntlm: false
+  remove_files: false
