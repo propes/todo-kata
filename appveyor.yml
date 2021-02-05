@@ -3,8 +3,8 @@
 configuration: Release
 
 build:
-  verbosity: minimal
   publish_aspnet_core: true
+  verbosity: minimal
 
 deploy:
   provider: WebDeploy
